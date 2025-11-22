@@ -11,6 +11,16 @@ The system is flexible and different modules could be plugged in as High-level P
 If you are using this software layer or you found this approach inspiring for your own research, please cite:
 
 ```bibtex
+@ARTICLE{calvo_tro25,
+  author={Calvo, Alvaro and Capitan, Jesus},
+  journal={IEEE Transactions on Robotics}, 
+  title={Heterogeneous Multirobot Task Allocation for Long-Endurance Missions in Dynamic Scenarios}, 
+  year={2025},
+  volume={41},
+  number={},
+  pages={6494-6513},
+  doi={10.1109/TRO.2025.3626651}
+  }
 @INPROCEEDINGS{CalvoICUAS22,  
   author        = {Calvo, Alvaro and Silano, Giuseppe and Capitan, Jesus},  
   booktitle     = {2022 International Conference on Unmanned Aircraft Systems (ICUAS)},   

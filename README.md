@@ -246,3 +246,7 @@ E.g., for the UAV_1:
 * Server Port: 1667
 
 **Note**: fbl log files are stored in `~/.ros` and are named as `bt_trace_uav_` + ID + `.fbl`
+
+## Migración a ROS2 (Aerostack2) - progreso
+- 2026-02-24: Inicio de migración. Rama jarvis-dev creada.
+

@@ -1205,8 +1205,8 @@ BT::NodeStatus InspectPVArray::tick(){
             target_xyz.x = -36.6343;
             target_xyz.y =  62.293;
             geographic_msgs::GeoPose target_gps;
-            target_gps.position.latitude  = -7.96213167462045;
-            target_gps.position.longitude = 38.54156780106911;
+            target_gps.position.latitude  = 38.54156780106911;
+            target_gps.position.longitude = -7.96213167462045;
             goal.do_closer_inspection.xyz_coordinates.push_back(target_xyz);
             goal.do_closer_inspection.gps_coordinates.push_back(target_gps);
             //TODO: Rui
@@ -1254,8 +1254,8 @@ BT::NodeStatus InspectPVArray::tick(){
           target_xyz.x = -36.6343;
           target_xyz.y =  62.293;
           geographic_msgs::GeoPose target_gps;
-          target_gps.position.latitude  = -7.96213167462045;
-          target_gps.position.longitude = 38.54156780106911;
+          target_gps.position.latitude  = 38.54156780106911;
+          target_gps.position.longitude = -7.96213167462045;
           goal.do_closer_inspection.xyz_coordinates.push_back(target_xyz);
           goal.do_closer_inspection.gps_coordinates.push_back(target_gps);
           task_result_ac_.sendGoal(goal);
